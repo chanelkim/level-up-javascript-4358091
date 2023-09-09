@@ -11,7 +11,8 @@ class Movie {
   }
 
   //Step 2: create function for movie prototype
-  overview() {
+  // overview() {
+  getOverview() {  // renaming for clarity
     return `${this.title}, a ${this.genre} film directed by ${this.director} was released in ${this.releaseYear}. It received a rating of ${this.rating}.`
   }
 
